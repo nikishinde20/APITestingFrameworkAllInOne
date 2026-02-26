@@ -1,0 +1,5 @@
+environments:
+  qa:
+    baseUrl: "https://reqres.in/api"
+  dev:
+    baseUrl: "https://dev.reqres.in/api"
