@@ -12,11 +12,7 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/nikishinde20/APITestingFrameworkAllInOne.git'
-            }
-        }
+        
 
         stage('Build & Test') {
             steps {
