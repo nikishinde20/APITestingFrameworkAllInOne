@@ -1,0 +1,7 @@
+environment: qa
+
+qa:
+  baseUrl: https://reqres.in
+
+uat:
+  baseUrl: https://jsonplaceholder.typicode.com
