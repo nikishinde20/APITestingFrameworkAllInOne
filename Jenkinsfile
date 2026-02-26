@@ -14,7 +14,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/yourrepo.git'
+                git 'https://github.com/nikishinde20/APITestingFrameworkAllInOne.git'
             }
         }
 
