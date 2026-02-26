@@ -20,7 +20,7 @@ pipeline {
 
         stage('Build & Test') {
             steps {
-                sh "mvn clean test -Denvironment=${params.ENV}"
+                bat "mvn clean test -Denvironment=${params.ENV}"
             }
         }
     }
